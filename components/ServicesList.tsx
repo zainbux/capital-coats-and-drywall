@@ -51,7 +51,7 @@ export function ServicesList() {
             {services.map((service) => (
               <div key={service.name} className="flex flex-col">
                 <dt className="flex items-center gap-x-3 text-base font-semibold leading-7 text-gray-900">
-                  <service.icon className="h-5 w-5 flex-none text-secondary" aria-hidden="true" />
+                  <service.icon className="h-5 w-5 flex-none text-secondary text-sky-600" aria-hidden="true" />
                   {service.name}
                 </dt>
                 <dd className="mt-4 flex flex-auto flex-col text-base leading-7 text-gray-600">

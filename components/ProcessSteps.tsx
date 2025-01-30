@@ -88,7 +88,7 @@ export function ProcessSteps() {
             className="mt-12 bg-white p-8 rounded-lg shadow-lg"
           >
             <h4 className="text-2xl text-center font-semibold mb-4">{steps[activeStep - 1].title}</h4>
-            <ul className="list-disc pl-5 space-y-2">
+            <ul className=" text-center list-disc pl-5 space-y-2">
               {steps[activeStep - 1].details.map((detail, index) => (
                 <p key={index} className="text-gray-700">
                   {detail}

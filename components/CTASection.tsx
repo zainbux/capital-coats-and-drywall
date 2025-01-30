@@ -11,7 +11,9 @@ export function CTASection() {
         <div className="mt-8 flex lg:mt-0 lg:flex-shrink-0">
 
           <div className="ml- inline-flex rounded-md shadow">
-            <Button type="submit" className="bg-indigo-600 text-white hover:text-slate-900 text-xl p-7">Get a Quote Now!</Button>
+            <a href="/#contact">
+            <Button type="submit" className="bg-sky-600 text-white hover:bg-sky-700 text-xl p-7">Get a Quote Now!</Button>
+            </a>
           </div>
         </div>
       </div>

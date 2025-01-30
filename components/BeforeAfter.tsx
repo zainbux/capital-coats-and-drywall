@@ -15,7 +15,7 @@ export function BeforeAfter() {
             <div className="relative mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:px-0">
 
               <div className="mb-10 text-center">            
-                <h2 className="text-base text-indigo-600 font-semibold tracking-wide uppercase">Results</h2>
+                <h2 className="text-base text-sky-600 font-semibold tracking-wide uppercase">Results</h2>
                 <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
                   Transform Your Space
                 </p>

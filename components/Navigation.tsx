@@ -16,10 +16,10 @@ export function Navigation() {
   return (
     <nav className="bg-white shadow-md">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between h-16">
+        <div className="flex justify-between h-20">
           <div className="flex-shrink-0 flex items-center">
             <Link href="/">
-              <img className="h-8 w-auto" src="/placeholder.svg?height=32&width=32" alt="Logo" />
+              <img className="h-28 w-auto "  src="CCDLogo1.jpg" alt="Logo" />
             </Link>
           </div>
           <div className="hidden sm:ml-6 sm:flex sm:space-x-8">
@@ -41,7 +41,7 @@ export function Navigation() {
           </div>
           <div className="hidden sm:ml-6 sm:flex sm:items-center">
             <a href="/#contact">
-            <Button className='bg-indigo-600 text-white hover:bg-slate-900 '>Get a Free Quote</Button>
+            <Button className='bg-sky-600 text-white hover:bg-slate-900 '>Get a Free Quote</Button>
             </a>
           </div>
           <div className="flex items-center sm:hidden">

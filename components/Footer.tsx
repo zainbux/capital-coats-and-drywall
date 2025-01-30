@@ -14,28 +14,28 @@ export function Footer() {
                 </h3>
                 <ul className="mt-4 space-y-4">
                   <li>
-                    <Link href="#" className="text-base text-gray-300 hover:text-white">
+                    <Link href="/Services" className="text-base text-gray-300 hover:text-white">
                       Interior Painting
                     </Link>
                   </li>
                   <li>
-                    <Link href="#" className="text-base text-gray-300 hover:text-white">
+                    <Link href="/Services" className="text-base text-gray-300 hover:text-white">
                       Exterior Painting
                     </Link>
                   </li>
                   <li>
-                    <Link href="#" className="text-base text-gray-300 hover:text-white">
+                    <Link href="/Services" className="text-base text-gray-300 hover:text-white">
                       Commercial Painting
                     </Link>
                   </li>
                   <li>
-                    <Link href="#" className="text-base text-gray-300 hover:text-white">
+                    <Link href="/Services" className="text-base text-gray-300 hover:text-white">
                       Drywall Repair
                     </Link>
                   </li>
                 </ul>
               </div>
-              <div className="mt-12 md:mt-0">
+              {/* <div className="mt-12 md:mt-0">
                 <h3 className="text-sm font-semibold text-gray-400 tracking-wider uppercase">
                   Company
                 </h3>
@@ -61,7 +61,7 @@ export function Footer() {
                     </Link>
                   </li>
                 </ul>
-              </div>
+              </div> */}
             </div>
           </div>
           <div className="mt-8 xl:mt-0">
@@ -87,7 +87,7 @@ export function Footer() {
               <div className="mt-3 rounded-none sm:mt-0 sm:ml-3 sm:flex-shrink-0">
                 <button
                   type="submit"
-                  className="w-full bg-indigo-500 border border-transparent rounded-none py-2 px-4 flex items-center justify-center text-base font-medium text-white hover:bg-indigo-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-indigo-500"
+                  className="w-full bg-sky-600 border border-transparent rounded-none py-2 px-4 flex items-center justify-center text-base font-medium text-white hover:bg-sky-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-indigo-500"
                 >
                   Subscribe
                 </button>
@@ -97,7 +97,7 @@ export function Footer() {
         </div>
         <div className="mt-8 border-t border-gray-700 pt-8 md:flex md:items-center md:justify-between">
           <div className="flex space-x-6 md:order-2">
-            <Link href="#" className="text-gray-400 hover:text-gray-300">
+            {/* <Link href="#" className="text-gray-400 hover:text-gray-300">
               <span className="sr-only">Facebook</span>
               <Facebook className="h-6 w-6" />
             </Link>
@@ -112,7 +112,7 @@ export function Footer() {
             <Link href="#" className="text-gray-400 hover:text-gray-300">
               <span className="sr-only">LinkedIn</span>
               <Linkedin className="h-6 w-6" />
-            </Link>
+            </Link> */}
           </div>
           <p className="mt-8 text-base text-gray-400 md:mt-0 md:order-1">
             &copy; 2023 Your Painting Company. All rights reserved.

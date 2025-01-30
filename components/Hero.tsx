@@ -9,7 +9,7 @@ export function Hero() {
             <div className="sm:text-center lg:text-left">
               <h1 className="text-4xl tracking-tight font-extrabold text-white sm:text-5xl md:text-6xl px-10">
                 <span className="block xl:inline">Transforming Spaces,</span>{' '}
-                <span className="block text-indigo-600 xl:inline">One Wall at a Time</span>
+                <span className="block text-sky-600 xl:inline">One Wall at a Time</span>
               </h1>
               <p className="mt-5 text-base text-gray-300 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
                 Premium Painting Services for Your Home and Business
@@ -17,11 +17,11 @@ export function Hero() {
               <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
                 <div className="rounded-none ">
                   <a href="/#contact">
-                  <Button  className="bg-indigo-600 text-white hover:text-slate-900" size="lg">Get Started</Button>
+                  <Button  className="bg-sky-600 text-white hover:text-slate-900" size="lg">Get Started</Button>
                   </a>
                 </div>
 
-                <div className="mt-3 sm:mt-0 sm:ml-3 hover:text-indigo-600">
+                <div className="mt-3 sm:mt-0 sm:ml-3 hover:text-sky-600">
                   <a href="/#services">
                     <Button variant="outline" size="lg" >Learn More</Button>
                   </a>
@@ -33,8 +33,8 @@ export function Hero() {
       </div>
       <div className="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
         <img
-          className="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full"
-          src="/hero.jpeg"
+          className="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full opacity-80"
+          src="/hero3.jpg"
           alt="Painting service"
         />
       </div>
