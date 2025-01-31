@@ -15,13 +15,13 @@ export function About() {
             <div className="relative lg:row-start-1 lg:col-start-2">
               <div className="relative text-base mx-auto max-w-prose lg:max-w-none">
                 <p className="text-lg text-gray-500">
-                  At our core, we are passionate about transforming spaces and bringing your vision to life. With years of experience in the painting industry, our team of skilled professionals is dedicated to delivering exceptional results that exceed your expectations.
+                  At our core, we are passionate about transforming spaces and bringing your vision to life. With over <strong>30 years of experience serving the Greater Ottawa area</strong>, we have worked in neighborhoods across the city, providing top-quality painting and drywall services that stand the test of time.
                 </p>
                 <p className="mt-4 text-lg text-gray-500">
-                  Our mission is to provide high-quality painting services that not only enhance the aesthetics of your space but also protect and preserve your property. We value integrity, craftsmanship, and customer satisfaction above all else.
+                  Our team of skilled professionals is dedicated to delivering <strong>exceptional results</strong> that exceed your expectations. We take pride in our craftsmanship, attention to detail, and commitment to customer satisfaction.
                 </p>
                 <p className="mt-4 text-lg text-gray-500">
-                  Whether you're looking to refresh your home's interior, update your office space, or tackle a large-scale commercial project, we have the expertise and commitment to ensure your project is completed to the highest standards.
+                  Our mission is to provide <strong>high-quality painting services</strong> that not only enhance the aesthetics of your space but also protect and preserve your property. Whether you're looking to refresh your home's interior, update your office, or tackle a large-scale commercial project, we have the expertise and dedication to ensure your project is completed to the highest standards.
                 </p>
               </div>
             </div>
@@ -40,4 +40,3 @@ export function About() {
     </section>
   )
 }
-
